@@ -37,12 +37,7 @@ pipenv shell
 python -m spacy download pt_core_news_lg
 ```
 
-7. Execute o modelo
-```bash
-python -m spacy download pt_core_news_lg
-```
-
-Execute o arquivo main.py
+7. Execute o arquivo main.py
 ```bash
 python main.py -i <caminho_do_input> -o <caminho_do_outut> -c <colunas>
 ```
