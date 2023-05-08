@@ -48,7 +48,6 @@ python main.py -i <caminho_do_input> -o <caminho_do_outut> -c <colunas>
 ```
 
 ### Configurações:
-  -h, --help  show this help message and exit
-  -i input    path do arquivo de entrada
-  -o output   path do arquivo de saída
-  -c colunas  lista de atributos que serão anonimizados
+- -i: input (caminho do arquivo .csv que será tratado)
+- -o: output (caminho onde será salvo o arquivo .csv tratado)
+- -c: colunas  (atributos que serão anonimizados, separados por espaço)
